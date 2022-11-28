@@ -1,3 +1,4 @@
+
 <script>
 function search_channels() {
     let input = document.getElementById('searchbar').value
@@ -15,3 +16,5 @@ function search_channels() {
     }
 }
 </script>
+</body>
+</html>
