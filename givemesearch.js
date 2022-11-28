@@ -8,10 +8,10 @@ function search_channels() {
       
     for (i = 0; i < x.length; i++) { 
         if (!y[i].innerHTML.toLowerCase().includes(input)) {
-            x[i].style.display=\"none\";
+            x[i].style.display="none";
         }
         else {
-            x[i].style.display=\"inline-block\";                 
+            x[i].style.display="inline-block";                 
         }
     }
 }
